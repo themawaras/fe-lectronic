@@ -1,0 +1,87 @@
+h3 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #777777;
+  padding-bottom: 20px;
+}
+
+input {
+  height: 54px;
+  width: 400px;
+  border: 1px solid #777777;
+  border-radius: 15px;
+  opacity: 0.5;
+  margin-bottom: 15px;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-weight: 900;
+  color: #0300ad;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  width: 50%;
+  height: 50vw;
+  background-image: url("./Sign\ in.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.left {
+  width: 50%;
+  height: 49vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left > .leftcenter {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftcenter > h3 {
+  width: 50px;
+}
+
+.bottom {
+  justify-content: flex-end;
+}
+
+.submit {
+  padding-top: 16px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.break > h3 {
+  width: 400px;
+  word-wrap: break-word;
+}

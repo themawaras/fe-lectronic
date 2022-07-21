@@ -1,0 +1,113 @@
+.banner {
+  margin: 1% 1%;
+  height: 777px;
+  background-color: rgb(235, 235, 235);
+  background-image: url("./asset/person\ 3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+  border-radius: 10px;
+}
+
+.input input {
+  border: none;
+  padding: 0;
+  width: inherit;
+  height: inherit;
+  opacity: 0;
+  cursor: pointer;
+  /* visibility: hidden; */
+}
+
+.photo img {
+  width: 100%;
+  height: 777px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.input {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  background-image: url("./asset/pencil-square\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 100px;
+  border-radius: 100px;
+  transform: translateY(-80px);
+}
+
+.container {
+  margin: 0 5%;
+}
+
+.container h3 {
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+.container p {
+  width: 70%;
+}
+
+.container hr {
+  width: 50%;
+  border-top: 2px solid #bbb;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.gridcontainer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label input {
+  width: 500px;
+  padding-left: 20px;
+  border: none;
+  height: 80px;
+  box-shadow: 0px 0px 50px rgba(45, 45, 45, 0.2);
+  color: black;
+  opacity: 1;
+}
+
+.gender {
+  height: 80px;
+  width: fit-content;
+  box-shadow: 0px 0px 50px rgba(45, 45, 45, 0.2);
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.gender Button:focus {
+  background-color: #0300ad;
+  color: white;
+  margin-right: 0;
+}
+
+.label label {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.left Button {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}

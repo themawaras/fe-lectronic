@@ -1,0 +1,120 @@
+.img {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img img {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.top {
+  height: 230px;
+  background-color: lightblue;
+}
+
+.bar {
+  margin: 0 5%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar button {
+  box-shadow: 0px 0px 60px rgba(45, 45, 45, 0.1);
+}
+
+.barbottom {
+  margin: 0 5%;
+  transform: translateY(-39px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperbar {
+  display: flex;
+  min-width: 100px;
+}
+
+.searchbar {
+  border-radius: 25px 0px 0px 25px;
+  border: none;
+  height: 100px;
+  width: 900px;
+  box-shadow: 0px 0px 60px rgba(45, 45, 45, 0.1);
+}
+
+.searchbutton {
+  height: 100px;
+  display: inline;
+  border: none;
+  width: 100px;
+  border-radius: 0px 25px 25px 0px;
+  background-color: #0300ad;
+  color: white;
+  cursor: pointer;
+}
+
+.searchbar,
+textarea {
+  background-color: white;
+  opacity: 1;
+  padding-left: 50px;
+  margin-bottom: 0.01px;
+}
+
+.btn {
+  border: none;
+  border-radius: 25px;
+  height: 100px;
+  background-color: white;
+  width: 100px;
+  cursor: pointer;
+}
+
+.filter {
+  margin: 0 5%;
+  margin-top: 100px;
+}
+
+.filter Button {
+  margin-right: 20px;
+}
+
+.gridcontainer {
+  margin: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.pagination {
+  width: fit-content;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0px 0px 60px rgba(45, 45, 45, 0.1);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination a {
+  margin: 0 20px;
+  padding: 10px;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.pagination a:focus {
+  width: 45px;
+  text-align: center;
+  background-color: #0300ad;
+  border-radius: 100px;
+  color: white;
+}
